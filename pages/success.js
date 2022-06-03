@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { BsBagCheckFill } from "react-icons/bs";
-import { runConfetti } from "../LIB/utils";
+import { runConfetti } from "../lib/utils";
 
 import { useStateContext } from "../context/StateContext";
 const Success = () => {
